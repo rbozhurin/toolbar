@@ -27,3 +27,12 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; /* Make sure the navbar is on top of other elements */
+  width: 100%; /* Make the navbar stretch the full width of the viewport */
+}
